@@ -1,0 +1,151 @@
+body{
+background-image:url("images/web_back.jpg");
+background-size:100%;
+color:black;
+margin:2px 2px 2px 2px;
+}
+.header{
+background-image:url("images/header.jpg");
+color:blue;
+text-align:center;
+}
+.creater{
+ text-align:right;
+ color:black;
+ font-size:3px;
+ font-family:"brushscript";
+}
+.topnavi{
+overflow:hidden;
+background-color:#333;
+color:white;
+
+}
+.topnavi a{
+	text-align:center;
+	padding:10px 10px;
+	color:white;
+	text-decoration:none;
+	float:left;
+}
+.topnavi a:hover {
+	background-color:#04AA6D;
+	color:white;
+}
+.topnavi a.active{
+	background-color:#04AA6D;
+	color:white;
+}
+/*anime div tag*/
+.animemain{
+	margin:30px 20px 30px;
+	border:2px solid;
+	background-image:url("images/anime1.jpg")
+}
+.anime{
+	margin:30px 20px 30px;
+	border:2px solid;
+	border-color:#333;
+	padding-left:10px;
+}
+#animehead{
+  color:#ff0000;
+}
+#animehead:hover{
+background-color:#04AA6D;
+	color:white;
+	text-decoration:underline;
+}
+ul{
+list-style-type:circle;
+  content: "\2022";
+  color:#00ff00;
+}
+.anime1 a{
+   text-align:center;
+   padding:10px 10px;
+   color:#14a39a;
+   text-decoration:none;
+}
+.anime a:visited{
+   text-decoration:none;
+}
+.anime a:link{
+   text-decoration:none;
+}
+.anime a:hover{
+	background-color:#04AA6D;
+	color:white;
+	text-decoration:underline;
+}
+.anime a:active{
+	background-color:#ddd;
+	color:black;
+	text-decoration:underline;
+}
+#temptag {
+color:inherit;
+font-size:10px;
+padding:none;
+}
+#temptag a{
+	text-decoration:underline;
+}
+/*movies*/
+.marvel{
+	background-image:url("images/marvel.jpg");
+	background-size: cover;
+	/*color:black;*/
+	padding:10px;
+	text-align:center;
+	margin:20px;
+	border:2px solid black;
+}
+.dc{
+	background-image:url("images/dc.jpg");
+	background-size: none;
+	color:green;
+	padding:10px;
+	text-align:center;
+	margin:20px;
+	border:2px solid black;
+}
+/*links div tag*/
+.links{
+	overflow:hidden;
+	background-color:#333;
+}
+.links a{
+	background-color:#333;
+	float:left;
+}
+.fa {
+  padding: 4px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  margin: 5px 2px;
+}
+.fa-youtube{
+	background-color:red;
+	color:white;	
+}
+.fa-twitter{
+	background-color:#55ACEE;
+	color:white;
+}
+.fa-facebook{
+	background-color:blue;
+	color:white;
+}
+.fa-linkedin{
+	background-color: #3B5998;
+	color:white;
+}
+.fa-instagram{
+	background-color:#bf40bf;
+	color:white;
+}
+#lastline{
+height:2px;
+background-color:black;}
