@@ -95,7 +95,7 @@ padding:none;
 .marvel{
 	background-image:url("images/marvel.jpg");
 	background-size: cover;
-	/*color:black;*/
+	color:white;
 	padding:10px;
 	text-align:center;
 	margin:20px;
